@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshara High School, Makthal | Admissions Open 2026–27</title>
+<meta name="description" content="Akshara High School, Makthal – English Medium, Nursery to 10th Class. 30 years experienced teachers, 100% pass results, SSC Mandal Topper 2026. Admissions Open 2026–27. Call 9440749605.">
+<style>
+  :root{
+    --blue:#0c3d5e;
+    --blue-dark:#082c45;
+    --green:#1b7a4a;
+    --green-dark:#14613a;
+    --gold:#f5b81f;
+    --cream:#f7f9f7;
+    --ink:#1c2733;
+    --muted:#56636f;
+    --white:#ffffff;
+    --line:#dde6e0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:"Segoe UI",Roboto,"Noto Sans Telugu",Arial,sans-serif;
+    color:var(--ink);
+    background:var(--cream);
+    line-height:1.6;
+    padding-bottom:64px;
+  }
+  img{max-width:100%;}
+  a{text-decoration:none;color:inherit;}
+  .container{max-width:1080px;margin:0 auto;padding:0 16px;}
+  section{padding:48px 0;}
+  .sec-label{
+    display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--green);font-weight:700;margin-bottom:6px;
+  }
+  h2{font-size:clamp(1.5rem,4vw,2rem);color:var(--blue);line-height:1.3;margin-bottom:8px;}
+  .sec-sub{color:var(--muted);max-width:640px;margin-bottom:28px;}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;background:var(--white);
+    border-bottom:3px solid var(--green);
+    box-shadow:0 2px 8px rgba(12,61,94,.08);
+  }
+  .topbar{
+    background:var(--blue);color:#dceaf5;font-size:.8rem;
+    padding:5px 0;text-align:center;
+  }
+  .topbar a{color:var(--gold);font-weight:700;}
+  .header-inner{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:10px 16px;max-width:1080px;margin:0 auto;gap:12px;
+  }
+  .brand{display:flex;align-items:center;gap:10px;min-width:0;}
+  .logo{
+    width:48px;height:48px;flex:none;border-radius:50%;
+    background:linear-gradient(135deg,var(--blue),var(--green));
+    color:var(--white);display:flex;align-items:center;justify-content:center;
+    font-size:1.4rem;font-weight:800;border:2px solid var(--gold);
+  }
+  .brand-name{font-size:1.05rem;font-weight:800;color:var(--blue);line-height:1.2;}
+  .brand-sub{font-size:.74rem;color:var(--muted);}
+  nav.desktop{display:none;gap:20px;font-size:.92rem;font-weight:600;}
+  nav.desktop a{color:var(--ink);padding:4px 0;border-bottom:2px solid transparent;}
+  nav.desktop a:hover{color:var(--green);border-bottom-color:var(--gold);}
+  .menu-btn{
+    background:none;border:1.5px solid var(--blue);border-radius:8px;
+    padding:7px 11px;color:var(--blue);font-size:1.1rem;cursor:pointer;
+  }
+  nav.mobile{display:none;flex-direction:column;background:var(--white);border-top:1px solid var(--line);}
+  nav.mobile a{padding:12px 20px;border-bottom:1px solid var(--line);font-weight:600;}
+  nav.mobile.open{display:flex;}
+  @media(min-width:860px){
+    nav.desktop{display:flex;}
+    .menu-btn{display:none;}
+  }
+
+  /* ---------- Scrolling ticker ---------- */
+  .ticker{
+    background:var(--gold);color:var(--blue-dark);overflow:hidden;
+    border-bottom:2px solid var(--blue);position:relative;
+  }
+  .ticker-track{
+    display:inline-flex;white-space:nowrap;
+    animation:ticker 22s linear infinite;
+    padding:8px 0;font-weight:800;font-size:.95rem;
+  }
+  .ticker-track span{padding:0 32px;}
+  .ticker:hover .ticker-track{animation-play-state:paused;}
+  @keyframes ticker{
+    from{transform:translateX(0);}
+    to{transform:translateX(-50%);}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .ticker-track{animation:none;padding-left:16px;}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:
+      repeating-linear-gradient(0deg, rgba(255,255,255,.04) 0 1px, transparent 1px 34px),
+      linear-gradient(150deg,var(--blue) 0%,var(--blue-dark) 55%,var(--green-dark) 100%);
+    color:var(--white);text-align:center;padding:56px 16px 64px;
+  }
+  .ribbon{
+    display:inline-block;background:var(--gold);color:var(--blue-dark);
+    font-weight:800;font-size:.92rem;padding:7px 20px;border-radius:999px;
+    margin-bottom:18px;letter-spacing:.02em;
+    box-shadow:0 3px 10px rgba(0,0,0,.25);
+  }
+  .hero h1{font-size:clamp(1.7rem,6vw,2.8rem);line-height:1.25;margin-bottom:10px;}
+  .hero .te{display:block;font-size:clamp(1rem,3.5vw,1.3rem);font-weight:600;color:#cfe7d9;margin-top:6px;}
+  .hero p.tag{color:#b8d3e6;max-width:560px;margin:14px auto 26px;font-size:1rem;}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;font-weight:800;
+    padding:13px 26px;border-radius:10px;font-size:1.02rem;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:active{transform:scale(.97);}
+  .btn-call{background:var(--gold);color:var(--blue-dark);box-shadow:0 4px 14px rgba(245,184,31,.4);}
+  .btn-wa{background:#25d366;color:#fff;box-shadow:0 4px 14px rgba(37,211,102,.35);}
+  .hero-btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;}
+
+  /* ---------- Stats strip ---------- */
+  .stats{
+    background:var(--white);border-bottom:1px solid var(--line);
+    padding:26px 0;
+  }
+  .stats-grid{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:18px;text-align:center;
+  }
+  @media(min-width:720px){.stats-grid{grid-template-columns:repeat(4,1fr);}}
+  .stat b{display:block;font-size:1.7rem;color:var(--green);line-height:1.2;}
+  .stat span{font-size:.85rem;color:var(--muted);}
+
+  /* ---------- Cards ---------- */
+  .grid{display:grid;gap:16px;}
+  .grid-3{grid-template-columns:1fr;}
+  @media(min-width:680px){.grid-3{grid-template-columns:repeat(2,1fr);}}
+  @media(min-width:960px){.grid-3{grid-template-columns:repeat(3,1fr);}}
+  .card{
+    background:var(--white);border:1px solid var(--line);border-radius:14px;
+    padding:22px;box-shadow:0 1px 4px rgba(12,61,94,.05);
+  }
+  .card .icon{
+    width:52px;height:52px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+    background:#e7f3ec;margin-bottom:14px;
+  }
+  .card .icon svg{width:28px;height:28px;stroke:var(--green);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
+  .card h3{color:var(--blue);font-size:1.08rem;margin-bottom:6px;}
+  .card p{font-size:.92rem;color:var(--muted);}
+
+  /* ---------- About ---------- */
+  .about-box{background:var(--white);border-left:5px solid var(--green);border-radius:0 14px 14px 0;
+    padding:24px;box-shadow:0 1px 4px rgba(12,61,94,.05);}
+  .about-box p{margin-bottom:12px;}
+  .about-box .te-text{font-weight:600;color:var(--green-dark);font-size:.95rem;}
+
+  /* ---------- Classes ---------- */
+  .class-chips{display:flex;flex-wrap:wrap;gap:10px;}
+  .chip{
+    background:var(--white);border:1.5px solid var(--blue);color:var(--blue);
+    font-weight:700;padding:9px 18px;border-radius:999px;font-size:.92rem;
+  }
+  .chip.green{border-color:var(--green);color:var(--green);}
+
+  /* ---------- Achievements ---------- */
+  .ach{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;border-radius:18px;padding:32px 24px;}
+  .ach h2{color:#fff;}
+  .ach .sec-label{color:var(--gold);}
+  .ach-grid{display:grid;gap:14px;margin-top:20px;}
+  @media(min-width:720px){.ach-grid{grid-template-columns:1fr 1fr;}}
+  .ach-item{
+    background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);
+    border-radius:12px;padding:18px;display:flex;gap:14px;align-items:flex-start;
+  }
+  .ach-item .medal{font-size:1.8rem;flex:none;}
+  .ach-item b{display:block;color:var(--gold);margin-bottom:3px;}
+  .ach-item span{font-size:.9rem;color:#d7e6f1;}
+
+  /* ---------- Gallery ---------- */
+  .gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
+  @media(min-width:720px){.gallery-grid{grid-template-columns:repeat(3,1fr);}}
+  .g-item{
+    aspect-ratio:4/3;border-radius:14px;overflow:hidden;position:relative;
+    background:linear-gradient(135deg,#e7f0f7,#e7f3ec);
+    border:1px solid var(--line);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:6px;color:var(--muted);font-size:.85rem;font-weight:600;text-align:center;padding:10px;
+  }
+  .g-item img{
+    position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;
+  }
+  .g-item .g-emoji{font-size:2rem;}
+  .g-cap{
+    position:absolute;left:0;right:0;bottom:0;
+    background:linear-gradient(transparent,rgba(8,44,69,.85));
+    color:#fff;font-size:.82rem;font-weight:700;padding:18px 10px 8px;text-align:center;
+  }
+
+  /* ---------- Enquiry ---------- */
+  .enquiry{
+    background:var(--green);color:#fff;text-align:center;border-radius:18px;
+    padding:40px 20px;
+  }
+  .enquiry h2{color:#fff;}
+  .enquiry p{color:#e0f2e8;max-width:520px;margin:8px auto 24px;}
+  .enquiry .phone{
+    font-size:clamp(1.6rem,6vw,2.2rem);font-weight:800;letter-spacing:.04em;
+    color:var(--gold);display:block;margin-bottom:18px;
+  }
+
+  /* ---------- Enquiry form ---------- */
+  .form-card{
+    background:var(--white);border-radius:14px;padding:22px;max-width:520px;
+    margin:24px auto 0;text-align:left;box-shadow:0 4px 16px rgba(0,0,0,.12);
+  }
+  .form-card label{
+    display:block;font-weight:700;color:var(--blue);font-size:.9rem;margin:12px 0 4px;
+  }
+  .form-card input,.form-card select,.form-card textarea{
+    width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:9px;
+    font-size:1rem;font-family:inherit;color:var(--ink);background:#fbfcfb;
+  }
+  .form-card input:focus,.form-card select:focus,.form-card textarea:focus{
+    outline:none;border-color:var(--green);
+  }
+  .form-submit{
+    width:100%;margin-top:16px;border:none;cursor:pointer;
+    background:#25d366;color:#fff;font-weight:800;font-size:1.05rem;
+    padding:14px;border-radius:10px;font-family:inherit;
+  }
+  .form-submit:active{transform:scale(.98);}
+  .form-note{font-size:.8rem;color:var(--muted);text-align:center;margin-top:8px;}
+
+  /* ---------- Contact ---------- */
+  .contact-grid{display:grid;gap:16px;}
+  @media(min-width:820px){.contact-grid{grid-template-columns:1fr 1fr;}}
+  .contact-list{list-style:none;}
+  .contact-list li{display:flex;gap:12px;margin-bottom:16px;align-items:flex-start;}
+  .contact-list .ci{
+    width:40px;height:40px;flex:none;border-radius:10px;background:#e7f0f7;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .contact-list .ci svg{width:22px;height:22px;stroke:var(--blue);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
+  .contact-list b{color:var(--blue);display:block;font-size:.95rem;}
+  .contact-list span{font-size:.92rem;color:var(--muted);}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--blue-dark);color:#a9c4d8;text-align:center;padding:28px 16px;font-size:.88rem;}
+  footer .fname{color:#fff;font-weight:800;font-size:1.05rem;}
+  footer a{color:var(--gold);}
+  footer p{margin-top:6px;}
+
+  /* ---------- Sticky mobile call bar ---------- */
+  .callbar{
+    position:fixed;bottom:0;left:0;right:0;z-index:60;display:flex;
+    box-shadow:0 -3px 12px rgba(0,0,0,.18);
+  }
+  .callbar a{
+    flex:1;text-align:center;padding:14px 8px;font-weight:800;font-size:1rem;
+    display:flex;align-items:center;justify-content:center;gap:8px;color:#fff;
+  }
+  .callbar .c1{background:var(--blue);}
+  .callbar .c2{background:#25d366;}
+  .callbar svg{width:20px;height:20px;fill:#fff;}
+  @media(min-width:860px){
+    .callbar{display:none;}
+    body{padding-bottom:0;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .btn{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">📞 Admissions Helpline: <a href="tel:9440749605">94407 49605</a></div>
+  <div class="header-inner">
+    <a class="brand" href="#home">
+      <div class="logo" aria-hidden="true">A</div>
+      <div>
+        <div class="brand-name">Akshara High School</div>
+        <div class="brand-sub">English Medium • Makthal, Narayanpet Dist.</div>
+      </div>
+    </a>
+    <nav class="desktop" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#why">Why Us</a>
+      <a href="#classes">Classes</a>
+      <a href="#achievements">Results</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false" onclick="toggleMenu(this)">☰</button>
+  </div>
+  <nav class="mobile" id="mnav" aria-label="Mobile">
+    <a href="#about" onclick="closeMenu()">About Us</a>
+    <a href="#why" onclick="closeMenu()">Why Choose Us</a>
+    <a href="#classes" onclick="closeMenu()">Classes</a>
+    <a href="#achievements" onclick="closeMenu()">Results</a>
+    <a href="#facilities" onclick="closeMenu()">Facilities</a>
+    <a href="#gallery" onclick="closeMenu()">Gallery</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </nav>
+</header>
+
+<!-- Scrolling announcement ticker -->
+<div class="ticker" aria-label="Announcements">
+  <div class="ticker-track">
+    <span>🎓 Admissions Open 2026–2027 • ప్రవేశాలు ప్రారంభం!</span>
+    <span>📞 Call: 94407 49605</span>
+    <span>🏆 SSC Mandal Topper 2026 — Our Student!</span>
+    <span>💯 100% Pass Results</span>
+    <span>🚌 Transport Facility Available</span>
+    <span>🎓 Admissions Open 2026–2027 • ప్రవేశాలు ప్రారంభం!</span>
+    <span>📞 Call: 94407 49605</span>
+    <span>🏆 SSC Mandal Topper 2026 — Our Student!</span>
+    <span>💯 100% Pass Results</span>
+    <span>🚌 Transport Facility Available</span>
+  </div>
+</div>
+
+<!-- Hero -->
+<div class="hero" id="home">
+  <span class="ribbon">🎓 Admissions Open 2026–27</span>
+  <h1>
+    Akshara High School, Makthal
+    <span class="te">మీ పిల్లల ఉజ్వల భవిష్యత్తుకు బలమైన పునాది</span>
+  </h1>
+  <p class="tag">English Medium • Nursery to 10th Class<br>SSC Mandal Topper School 2026 • 30 Years of Teaching Excellence</p>
+  <div class="hero-btns">
+    <a class="btn btn-call" href="tel:9440749605">📞 Call Now</a>
+    <a class="btn btn-wa" href="https://wa.me/919440749605?text=Hello%2C%20I%20want%20admission%20details%20for%202026-27" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+  </div>
+</div>
+
+<!-- Stats -->
+<div class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><b>30</b><span>Years Experienced<br>Teachers</span></div>
+    <div class="stat"><b>800+</b><span>Students<br>Strong Family</span></div>
+    <div class="stat"><b>100%</b><span>Pass Results<br>Every Year</span></div>
+    <div class="stat"><b>#1</b><span>SSC Mandal<br>Topper 2026</span></div>
+  </div>
+</div>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <span class="sec-label">About Us</span>
+    <h2>A trusted English medium school in Makthal</h2>
+    <div class="about-box">
+      <p>Akshara High School, Makthal offers quality English medium education from Nursery to 10th Class. With teachers having 30 years of experience, strong discipline, and individual attention for every child, our school has earned the trust of parents across Makthal mandal.</p>
+      <p>Our consistent 100% pass results and the SSC Mandal Topper of 2026 reflect our commitment to academic excellence. We focus on strong fundamentals, English fluency, and the all-round development of every student.</p>
+      <p class="te-text">మక్తల్‌లో తల్లిదండ్రుల నమ్మకం పొందిన ఇంగ్లీష్ మీడియం పాఠశాల — నాణ్యమైన విద్య, క్రమశిక్షణ, 100% ఫలితాలు.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section id="why" style="background:var(--white);">
+  <div class="container">
+    <span class="sec-label">Why Choose Us</span>
+    <h2>What makes Akshara different</h2>
+    <p class="sec-sub">Quality education, safety, and a bright future for your child.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg></div>
+        <h3>Experienced Teachers</h3>
+        <p>Teachers with 30 years of experience guide every child with care and proven teaching methods.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 19c0-3 2.7-5 6-5s6 2 6 5"/><circle cx="17" cy="9" r="2.4"/><path d="M16 14.2c2.8.2 5 1.9 5 4.8"/></svg></div>
+        <h3>800+ Students Family</h3>
+        <p>A large, growing school family trusted by parents across Makthal and nearby villages.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m9 14-2 7 5-3 5 3-2-7"/></svg></div>
+        <h3>100% Pass Results</h3>
+        <p>Consistent 100% pass results in SSC examinations, year after year.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M8 21h8M12 17v4"/><path d="M7 4h10v6a5 5 0 0 1-10 0V4z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg></div>
+        <h3>SSC Mandal Topper 2026</h3>
+        <p>Our student secured the Mandal 1st rank in the 2026 SSC results — a proud achievement.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 7h13v9H3zM16 10h4l1.5 3V16H16z"/><circle cx="7" cy="17.5" r="1.7"/><circle cx="17.5" cy="17.5" r="1.7"/></svg></div>
+        <h3>Transport Facility</h3>
+        <p>Safe and reliable school transport available for surrounding villages.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.6-7-10a7 7 0 0 1 14 0c0 5.4-7 10-7 10z"/><path d="m9.5 10.5 1.8 1.8 3.4-3.6"/></svg></div>
+        <h3>Individual Attention</h3>
+        <p>Personal care for every student, strong discipline, and regular updates to parents.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Classes -->
+<section id="classes">
+  <div class="container">
+    <span class="sec-label">Classes Offered</span>
+    <h2>Nursery to 10th Class</h2>
+    <p class="sec-sub">Complete English medium education on a single campus.</p>
+    <div class="class-chips">
+      <span class="chip green">Nursery</span>
+      <span class="chip green">LKG</span>
+      <span class="chip green">UKG</span>
+      <span class="chip">Class 1</span>
+      <span class="chip">Class 2</span>
+      <span class="chip">Class 3</span>
+      <span class="chip">Class 4</span>
+      <span class="chip">Class 5</span>
+      <span class="chip">Class 6</span>
+      <span class="chip">Class 7</span>
+      <span class="chip">Class 8</span>
+      <span class="chip">Class 9</span>
+      <span class="chip">Class 10 (SSC)</span>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements">
+  <div class="container">
+    <div class="ach">
+      <span class="sec-label">Achievements</span>
+      <h2>Results that speak for our school</h2>
+      <div class="ach-grid">
+        <div class="ach-item">
+          <div class="medal">🏆</div>
+          <div>
+            <b>SSC Mandal Topper – 2026</b>
+            <span>Our student secured the 1st rank in Makthal mandal in the 2026 SSC results.</span>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="medal">💯</div>
+          <div>
+            <b>100% Pass Results</b>
+            <span>Every year, 100% of our students pass the SSC examinations — proof of our teaching quality.</span>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="medal">👩‍🏫</div>
+          <div>
+            <b>30 Years of Teaching Excellence</b>
+            <span>An experienced team of teachers building strong foundations and great results.</span>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="medal">🤝</div>
+          <div>
+            <b>Trusted by 800+ Families</b>
+            <span>The school that parents of Makthal region trust for their children's future.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Facilities -->
+<section id="facilities" style="background:var(--white);">
+  <div class="container">
+    <span class="sec-label">Facilities</span>
+    <h2>Everything your child needs</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 7h13v9H3zM16 10h4l1.5 3V16H16z"/><circle cx="7" cy="17.5" r="1.7"/><circle cx="17.5" cy="17.5" r="1.7"/></svg></div>
+        <h3>School Transport</h3>
+        <p>Safe and reliable transport facility covering surrounding villages.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 19V5a1 1 0 0 1 1-1h6v15H5a1 1 0 0 1-1-1zM20 19V5a1 1 0 0 0-1-1h-6v15h6a1 1 0 0 0 1-1z"/></svg></div>
+        <h3>Experienced Staff</h3>
+        <p>Qualified, dedicated teachers with decades of teaching experience.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6"/></svg></div>
+        <h3>Safe Campus</h3>
+        <p>A disciplined, child-friendly environment for focused learning.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery">
+  <div class="container">
+    <span class="sec-label">Gallery</span>
+    <h2>Our school in pictures</h2>
+    <p class="sec-sub">Glimpses of our campus, students, and events.</p>
+    <div class="gallery-grid">
+      <div class="g-item"><span class="g-emoji">🏫</span>School Building<br>(photo here)</div>
+      <div class="g-item"><span class="g-emoji">📚</span>Classrooms<br>(photo here)</div>
+      <div class="g-item"><span class="g-emoji">🏆</span>SSC Toppers 2026<br>(photo here)</div>
+      <div class="g-item"><span class="g-emoji">🎉</span>School Events<br>(photo here)</div>
+      <div class="g-item"><span class="g-emoji">⚽</span>Sports & Games<br>(photo here)</div>
+      <div class="g-item"><span class="g-emoji">🚌</span>School Transport<br>(photo here)</div>
+    </div>
+  </div>
+</section>
+
+<!-- Admission Enquiry -->
+<section id="enquiry">
+  <div class="container">
+    <div class="enquiry">
+      <h2>Admission Enquiry – 2026–27</h2>
+      <p>Seats are limited — call or WhatsApp us today for admission details.<br><span style="font-size:.92rem;">సీట్లు పరిమితం! అడ్మిషన్ వివరాల కోసం ఇప్పుడే కాల్ చేయండి.</span></p>
+      <a class="phone" href="tel:9440749605">📞 94407 49605</a>
+      <div class="hero-btns">
+        <a class="btn btn-call" href="tel:9440749605">Call Now</a>
+        <a class="btn" style="background:#fff;color:#128c4b;" href="https://wa.me/919440749605?text=Hello%2C%20I%20want%20admission%20details%20for%202026-27" target="_blank" rel="noopener">💬 WhatsApp Message</a>
+      </div>
+
+      <div class="form-card">
+        <h3 style="color:var(--blue);text-align:center;margin-bottom:4px;">Quick Enquiry Form</h3>
+        <p style="color:var(--muted);font-size:.85rem;text-align:center;margin:0;">Fill the details below — they will be sent to the school on WhatsApp</p>
+        <label for="f-student">Student Name *</label>
+        <input type="text" id="f-student" placeholder="Enter student name">
+        <label for="f-parent">Parent Name *</label>
+        <input type="text" id="f-parent" placeholder="Enter parent name">
+        <label for="f-phone">Parent Phone Number *</label>
+        <input type="tel" id="f-phone" placeholder="10-digit mobile number" maxlength="10" inputmode="numeric">
+        <label for="f-class">Class for Admission *</label>
+        <select id="f-class">
+          <option value="">-- Select Class --</option>
+          <option>Nursery</option><option>LKG</option><option>UKG</option>
+          <option>Class 1</option><option>Class 2</option><option>Class 3</option>
+          <option>Class 4</option><option>Class 5</option><option>Class 6</option>
+          <option>Class 7</option><option>Class 8</option><option>Class 9</option>
+          <option>Class 10</option>
+        </select>
+        <label for="f-msg">Message (optional)</label>
+        <textarea id="f-msg" rows="2" placeholder="Any questions about transport, fees, timings..."></textarea>
+        <button class="form-submit" onclick="sendEnquiry()">💬 Send Enquiry on WhatsApp</button>
+        <p class="form-note">Tapping the button opens WhatsApp with your details — just press send.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <span class="sec-label">Contact</span>
+    <h2>Visit our school</h2>
+    <div class="contact-grid">
+      <ul class="contact-list">
+        <li>
+          <div class="ci"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.6-7-10a7 7 0 0 1 14 0c0 5.4-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg></div>
+          <div>
+            <b>Address</b>
+            <span>Akshara High School, Sangambanda Rd, Makthal,<br>Narayanpet District, Telangana – 509208</span>
+          </div>
+        </li>
+        <li>
+          <div class="ci"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></div>
+          <div>
+            <b>Phone</b>
+            <span><a href="tel:9440749605" style="color:var(--green);font-weight:700;">94407 49605</a> — Call or WhatsApp</span>
+          </div>
+        </li>
+        <li>
+          <div class="ci"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <div>
+            <b>School Timings</b>
+            <span>Monday – Saturday, 9:00 AM – 4:30 PM<br>Office open for admission enquiries</span>
+          </div>
+        </li>
+      </ul>
+      <div>
+        <iframe
+          src="https://maps.google.com/maps?q=Akshara%20High%20School%2C%20Sangambanda%20Rd%2C%20Makthal%2C%20Telangana%20509208&z=16&output=embed"
+          style="border:0;width:100%;height:300px;border-radius:14px;box-shadow:0 1px 4px rgba(12,61,94,.1);"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Akshara High School, Makthal location on Google Maps"></iframe>
+        <a href="https://maps.app.goo.gl/6j4hrMTBsUpgPwPR6" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:6px;margin-top:10px;color:var(--green);font-weight:700;font-size:.92rem;">
+          📍 Get Directions on Google Maps →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="fname">Akshara High School, Makthal</div>
+  <p>Sangambanda Rd, Makthal, Narayanpet District, Telangana – 509208 | 📞 <a href="tel:9440749605">94407 49605</a></p>
+  <p>© 2026 Akshara High School, Makthal. All rights reserved.</p>
+</footer>
+
+<!-- Sticky mobile call bar -->
+<div class="callbar" aria-label="Quick contact">
+  <a class="c1" href="tel:9440749605">
+    <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.25 1z"/></svg>
+    Call Now
+  </a>
+  <a class="c2" href="https://wa.me/919440749605?text=Hello%2C%20I%20want%20admission%20details%20for%202026-27" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.4 14.1c-.23.65-1.34 1.24-1.86 1.28-.5.04-1.13.2-3.8-.8-3.2-1.26-5.2-4.54-5.36-4.75-.15-.2-1.27-1.7-1.27-3.23s.8-2.3 1.1-2.6c.27-.3.6-.38.8-.38h.58c.18 0 .43-.07.67.5.23.58.8 2 .87 2.14.07.15.12.32.02.52-.1.2-.15.32-.3.5l-.45.52c-.15.15-.3.32-.13.62.17.3.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.38 1.47.3.15.47.12.64-.07.18-.2.74-.86.94-1.16.2-.3.4-.25.66-.15.27.1 1.7.8 2 .95.3.15.48.22.55.34.07.13.07.74-.16 1.4z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+<script>
+  function toggleMenu(btn){
+    var nav = document.getElementById('mnav');
+    var open = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  function closeMenu(){
+    document.getElementById('mnav').classList.remove('open');
+    document.querySelector('.menu-btn').setAttribute('aria-expanded','false');
+  }
+  function sendEnquiry(){
+    var student = document.getElementById('f-student').value.trim();
+    var parent  = document.getElementById('f-parent').value.trim();
+    var phone   = document.getElementById('f-phone').value.trim();
+    var cls     = document.getElementById('f-class').value;
+    var msg     = document.getElementById('f-msg').value.trim();
+
+    if(!student || !parent || !phone || !cls){
+      alert('Please fill all required fields (Student Name, Parent Name, Phone, Class).');
+      return;
+    }
+    if(!/^[6-9][0-9]{9}$/.test(phone)){
+      alert('Please enter a valid 10-digit mobile number.');
+      return;
+    }
+    var text = 'New Admission Enquiry (2026-27)%0A'
+      + '--------------------------%0A'
+      + 'Student Name: ' + encodeURIComponent(student) + '%0A'
+      + 'Parent Name: '  + encodeURIComponent(parent)  + '%0A'
+      + 'Phone: '        + encodeURIComponent(phone)   + '%0A'
+      + 'Class: '        + encodeURIComponent(cls);
+    if(msg){ text += '%0AMessage: ' + encodeURIComponent(msg); }
+    window.open('https://wa.me/919440749605?text=' + text, '_blank');
+  }
+</script>
+
+</body>
+</html>
